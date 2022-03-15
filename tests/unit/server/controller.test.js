@@ -7,13 +7,14 @@ import { Service } from "../../../server/service"
 const { pages } = config
 
 describe("#Controller", () => {
+  const controller = new Controller()
+
   beforeEach(() => {
     jest.restoreAllMocks()
     jest.clearAllMocks()
   })
 
   test(`getFileStream - should return a file stream`, async () => {
-    const controller = new Controller()
     const expectedType = ".html"
     const mockFileStream = TestUtil.generateReadableStream(["data"])
 

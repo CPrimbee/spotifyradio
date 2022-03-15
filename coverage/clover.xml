@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1647363503619" clover="3.2.0">
-  <project timestamp="1647363503620" name="All files">
-    <metrics statements="45" coveredstatements="38" conditionals="20" coveredconditionals="20" methods="9" coveredmethods="6" elements="74" coveredelements="64" complexity="0" loc="45" ncloc="45" packages="1" files="5" classes="5"/>
+<coverage generated="1647365863806" clover="3.2.0">
+  <project timestamp="1647365863806" name="All files">
+    <metrics statements="45" coveredstatements="45" conditionals="20" coveredconditionals="20" methods="9" coveredmethods="9" elements="74" coveredelements="74" complexity="0" loc="45" ncloc="45" packages="1" files="5" classes="5"/>
     <file name="config.js" path="/home/cprimbee/dev/spotifyradio/server/config.js">
       <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="0" coveredmethods="0"/>
-      <line num="4" count="2" type="stmt"/>
-      <line num="5" count="2" type="stmt"/>
-      <line num="6" count="2" type="stmt"/>
-      <line num="7" count="2" type="stmt"/>
+      <line num="4" count="3" type="stmt"/>
+      <line num="5" count="3" type="stmt"/>
+      <line num="6" count="3" type="stmt"/>
+      <line num="7" count="3" type="stmt"/>
     </file>
     <file name="controller.js" path="/home/cprimbee/dev/spotifyradio/server/controller.js">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
@@ -47,15 +47,15 @@
       <line num="68" count="2" type="stmt"/>
     </file>
     <file name="service.js" path="/home/cprimbee/dev/spotifyradio/server/service.js">
-      <metrics statements="8" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
-      <line num="9" count="2" type="stmt"/>
-      <line num="12" count="0" type="stmt"/>
-      <line num="17" count="0" type="stmt"/>
-      <line num="19" count="0" type="stmt"/>
-      <line num="20" count="0" type="stmt"/>
-      <line num="21" count="0" type="stmt"/>
-      <line num="27" count="0" type="stmt"/>
-      <line num="28" count="0" type="stmt"/>
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <line num="9" count="3" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="17" count="2" type="stmt"/>
+      <line num="19" count="2" type="stmt"/>
+      <line num="20" count="2" type="stmt"/>
+      <line num="21" count="2" type="stmt"/>
+      <line num="27" count="1" type="stmt"/>
+      <line num="28" count="1" type="stmt"/>
     </file>
     <file name="util.js" path="/home/cprimbee/dev/spotifyradio/server/util.js">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>

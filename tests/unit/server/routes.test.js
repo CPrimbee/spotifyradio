@@ -69,7 +69,7 @@ describe("#Routes - test site for api response", () => {
     expect(mockFileStream.pipe).toHaveBeenCalledWith(params.response)
   })
 
-  test("GET /index.html - shoudl response with  file stream", async () => {
+  test("GET /index.html - shoudl response with file stream", async () => {
     const params = TestUtil.defaultHandleParams()
     const filename = "/index.html"
     params.request.method = "GET"
@@ -95,7 +95,7 @@ describe("#Routes - test site for api response", () => {
     })
   })
 
-  test("GET /file.ext - shoudl response with  file stream", async () => {
+  test("GET /file.ext - shoudl response with file stream", async () => {
     const params = TestUtil.defaultHandleParams()
     const filename = "/file.ext"
     params.request.method = "GET"
